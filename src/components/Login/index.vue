@@ -6,8 +6,8 @@
       <button class="login_btn">登录</button>
     </div>
     <div class="to_register_bar">
-      <a href class="to_register">立即注册</a>
-      <a href class="find_password">找回密码</a>
+      <router-link to="register" class="to_register">立即注册</router-link>
+      <a class="find_password">找回密码</a>
     </div>
   </section>
 </template>

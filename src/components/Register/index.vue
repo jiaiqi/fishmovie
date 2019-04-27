@@ -9,7 +9,7 @@
       <button class="login_btn">注册</button>
     </div>
     <div class="to_register_bar">
-      <a href class="to_register">已有账号</a>
+      <router-link to="login" class="to_register">已有账号</router-link>
       <a href class="find_password">找回密码</a>
     </div>
   </section>
