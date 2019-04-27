@@ -1,0 +1,70 @@
+#content .topbar{
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  }
+  #content .topbar div{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+  }
+  .cinema_body ul{
+  padding: 20px 10px;
+  }
+  .cinema_body li{
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+  }
+  .cinema_body .cinema_name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    margin-right: 10px;
+  }
+  .cinema_body .q{
+  font-size: 11px;
+  color: #f03d37;
+  }
+  .cinema_body .price{
+  font-size: 18px;
+  }
+  .cinema_body .address .location{
+    width: 85%;
+    color: #666;
+    display: block;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    margin: 10px 0;
+  }
+  .cinema_body .address .distance{
+    float: right;
+    color: #666;
+    font-size: 14px;
+  }
+  .cinema_body .card{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .cinema_body .card .bl{
+    color: #589daf;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #589daf;
+  }
+  .cinema_body .card div{
+    padding: 0 3px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 2px;
+    color: #f90;
+    border: 1px solid #f90;
+    font-size: 13px;
+    margin-right: 5px;
+  }
