@@ -12,9 +12,9 @@
         "distance": "905.6km",
         "tag": {
           "allowRefund": 1,
-          "buyout": 0,
-          "cityCardTag": 0,
-          "deal": 0,
+          "buyout": 1,
+          "cityCardTag": 1,
+          "deal": 1,
           "endorse": 1,
           "hallTypeVOList": [],
           "sell": 1,

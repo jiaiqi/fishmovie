@@ -78,7 +78,7 @@ export default {
                 }
             }
 
-            for(var i=0;i<cities.length;i++){
+            for(let i=0;i<cities.length;i++){
                 var firstLetter = cities[i].py.substring(0,1).toUpperCase();
                 if(toCom(firstLetter)){  //新添加index
                     cityList.push({ index : firstLetter , list : [ { nm : cities[i].nm , id : cities[i].id } ] });

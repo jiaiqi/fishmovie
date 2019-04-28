@@ -34,7 +34,7 @@
               <span class="distance">{{ item.distance }}</span>
             </p>
             <div class="card">
-              <div v-for="(num,key) in item.tag" v-if="num===1" :key="key" :class=" key | classCard ">{{ key | formatCard }}</div>
+              <div v-for="(num,key) in item.tag" :key="key" :class=" key | classCard ">{{ key | formatCard }}</div>
             </div>
           </li>
         </ul>
@@ -76,7 +76,7 @@ export default {
                 { key : 'sell' , value : '折扣卡' },
                 { key : 'snack' , value : '小吃'}
             ];
-            for(var i=0;i<card.length;i++){
+            for(let i=0;i<card.length;i++){
                 if(card[i].key === key){
                     return card[i].value;
                 }
