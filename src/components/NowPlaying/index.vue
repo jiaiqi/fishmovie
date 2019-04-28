@@ -8,14 +8,13 @@
           <li class="pullDown">{{ pullDownMsg }}</li>
           <li class="movie_item" v-for="item in movieList" :key="item.id">
             <div class="movie_pic" @tap="handleToDetail(item.id)"><img :src="item.img | setWH('128.180')">
-              <img src="/img/fl4.jpg" alt>
             </div>
             <div class="info_list">
               <h2 @tap="handleToDetail(item.id)">
                 {{ item.nm }} 
                 <img v-if="item.version" src="@/assets/maxs.png">
               </h2>
-             <p>观众评 <span class="grade">{{ item.sc }}</span></p>
+              <p>观众评 <span class="grade">{{ item.sc }}</span></p>
                         <p>主演: {{ item.star }}</p>
                         <p>{{ item.showInfo }}</p>
             </div>
@@ -44,7 +43,7 @@ export default {
         var cityId = this.$store.state.city.id;
         if( this.prevCityId === cityId ){ return; }
         this.isLoading = true;
-        this.axios.get('/api/movieOnInfoList?cityId='+cityId).then((res)=>{
+        this.axios.get('/api/nowPlaying.json').then((res)=>{
             var msg = res.data.msg;
             if( msg === 'ok' ){
                 this.movieList = res.data.data.movieList;
@@ -64,7 +63,7 @@ export default {
         },
         handleToTouchEnd(pos){
             if( pos.y > 30 ){
-                this.axios.get('/api/movieOnInfoList?cityId=11').then((res)=>{
+                this.axios.get('@/api/movieOnInfoList?cityId=42').then((res)=>{
                     var msg = res.data.msg;
                     if( msg === 'ok' ){
                         this.pullDownMsg = '更新成功';
@@ -100,8 +99,9 @@ export default {
   margin-top: 12px;
   display: flex;
   align-items: center;
+  clear: both;
   border-bottom: 1px #e6e6e6 solid;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .movie_body .movie_pic {

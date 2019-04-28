@@ -1,0 +1,570 @@
+{
+  "msg": "ok",
+  "status": 0,
+  "data": {
+    "cinemas": [
+      {
+        "id": 25339,
+        "mark": 0,
+        "nm": "华夏优加影城(长和国际店)",
+        "sellPrice": "19.9",
+        "addr": "未央区经济技术开发区凤城八路与明光路交汇处长和国际卜蜂中心4",
+        "distance": "905.6km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 13712,
+        "mark": 0,
+        "nm": "星美国际影商城(西安鼎峰店)",
+        "sellPrice": "19.9",
+        "addr": "未央区和平村十字西南角鼎峰KTV二楼",
+        "distance": "918.9km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 0
+        },
+        "promotion": {}
+      },
+      {
+        "id": 13990,
+        "mark": 0,
+        "nm": "阎良数字电影城",
+        "sellPrice": "23",
+        "addr": "阎良区人民东路（千禧广场对面）",
+        "distance": "861.1km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅",
+            "巨幕厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            },
+            {
+              "name": "巨幕厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 26456,
+        "mark": 0,
+        "nm": "新娱国际影城",
+        "sellPrice": "23",
+        "addr": "未央区浐灞生态区浐灞大道1366号欣源里生活广场5F",
+        "distance": "901km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅",
+            "DTS:X 临境音厅",
+            "4K厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            },
+            {
+              "name": "DTS:X 临境音厅",
+              "url": ""
+            },
+            {
+              "name": "4K厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减4元"
+        }
+      },
+      {
+        "id": 26576,
+        "mark": 0,
+        "nm": "中影圣谛影城(纺织城店)",
+        "sellPrice": "23",
+        "addr": "灞桥区堡子村转盘西南角华夏世纪广场E座五层",
+        "distance": "902.8km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅",
+            "DTS:X 临境音厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            },
+            {
+              "name": "DTS:X 临境音厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减8元"
+        }
+      },
+      {
+        "id": 16959,
+        "mark": 0,
+        "nm": "派啦萌巨幕影城(卜蜂莲花店)",
+        "sellPrice": "23",
+        "addr": "未央区凤城八路与渭滨路十字西北角卜蜂莲花4F",
+        "distance": "903.3km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅",
+            "巨幕厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            },
+            {
+              "name": "巨幕厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 26159,
+        "mark": 0,
+        "nm": "中都影城(人人乐店)",
+        "sellPrice": "23",
+        "addr": "未央区经济技术开发区凤城五路与未央路东北角人人乐商场4楼",
+        "distance": "905.2km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 0,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "限时¥7.9促销开卡，首单更优惠"
+        }
+      },
+      {
+        "id": 13695,
+        "mark": 0,
+        "nm": "文投国际影城(华东店)",
+        "sellPrice": "23",
+        "addr": "新城区朝阳门外长乐西路128号华东万悦城7层",
+        "distance": "908.2km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1
+        },
+        "promotion": {}
+      },
+      {
+        "id": 14421,
+        "mark": 0,
+        "nm": "珠江影城(西安店)",
+        "sellPrice": "23",
+        "addr": "新城区解放路欢乐城西三路口（盒马生鲜隔壁电梯7F）",
+        "distance": "909.3km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减6元"
+        }
+      },
+      {
+        "id": 25512,
+        "mark": 0,
+        "nm": "苏宁影城",
+        "sellPrice": "23",
+        "addr": "新城区解放路186号苏宁易购广场6楼",
+        "distance": "909.5km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "限时¥6.9促销开卡，首单更优惠"
+        }
+      },
+      {
+        "id": 880,
+        "mark": 0,
+        "nm": "万达影城(东新街店)",
+        "sellPrice": "23",
+        "addr": "新城区解放路63号民乐新都会4楼（近东新街）",
+        "distance": "909.5km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "儿童厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "儿童厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "限时¥19.9促销开卡，首单更优惠"
+        }
+      },
+      {
+        "id": 15633,
+        "mark": 0,
+        "nm": "曲江国际影城(西北影城店)",
+        "sellPrice": "23",
+        "addr": "新城区东大街533号（端履门十字向西一百米路北）",
+        "distance": "910.6km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅",
+            "巨幕厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            },
+            {
+              "name": "巨幕厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减2元"
+        }
+      },
+      {
+        "id": 15027,
+        "mark": 0,
+        "nm": "卡卡影院(龙湖店)",
+        "sellPrice": "23",
+        "addr": "莲湖区大兴东路2号龙湖星悦荟3楼",
+        "distance": "910.7km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 17395,
+        "mark": 0,
+        "nm": "映画魔方国际影城",
+        "sellPrice": "23",
+        "addr": "碑林区兴正元广场民生百货6楼东北角",
+        "distance": "910.7km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减4元"
+        }
+      },
+      {
+        "id": 26043,
+        "mark": 0,
+        "nm": "华夏优加影城(钟楼店)",
+        "sellPrice": "23",
+        "addr": "新城区东大街平安市场26号钟楼电影院文化综合楼3-6层",
+        "distance": "910.8km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减4元"
+        }
+      },
+      {
+        "id": 17003,
+        "mark": 0,
+        "nm": "大咖影城",
+        "sellPrice": "23",
+        "addr": "莲湖区西大街170号正阳大厦5楼",
+        "distance": "911.8km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1
+        },
+        "promotion": {}
+      },
+      {
+        "id": 24365,
+        "mark": 0,
+        "nm": "中影圣谛影城(六村堡店)",
+        "sellPrice": "23",
+        "addr": "未央区沣东新城建章街办建章路3199号好又多购物广场5楼",
+        "distance": "912km",
+        "tag": {
+          "allowRefund": 1,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "杜比全景声厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "杜比全景声厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 16528,
+        "mark": 0,
+        "nm": "鑫苑星空影城",
+        "sellPrice": "23",
+        "addr": "莲湖区丰禾路西二环交汇处鑫苑大都汇5楼",
+        "distance": "912.4km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "DTS:X 临境音厅",
+            "巨幕厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "DTS:X 临境音厅",
+              "url": ""
+            },
+            {
+              "name": "巨幕厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      },
+      {
+        "id": 9776,
+        "mark": 0,
+        "nm": "文投国际影城(太奥店)",
+        "sellPrice": "23",
+        "addr": "莲湖区丰禾路西口太奥广场七号楼四层",
+        "distance": "912.5km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallType": [
+            "巨幕厅"
+          ],
+          "hallTypeVOList": [
+            {
+              "name": "巨幕厅",
+              "url": ""
+            }
+          ],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减4元"
+        }
+      },
+      {
+        "id": 5220,
+        "mark": 0,
+        "nm": "欢乐小马电影城",
+        "sellPrice": "23",
+        "addr": "雁塔区长安中路30号服务社购物中心8层",
+        "distance": "914.2km",
+        "tag": {
+          "allowRefund": 0,
+          "buyout": 0,
+          "cityCardTag": 0,
+          "deal": 0,
+          "endorse": 1,
+          "hallTypeVOList": [],
+          "sell": 1,
+          "snack": 1,
+          "vipTag": "折扣卡"
+        },
+        "promotion": {
+          "cardPromotionTag": "开卡特惠，首单2张立减10元"
+        }
+      }
+    ]
+  }
+}

@@ -21,23 +21,20 @@
     <div class="cinema_body">
       <div class="wrapper">
         <ul>
-          <li>
+          <li v-for="item in cinemaList" :key="item.id">
             <p>
-              <span class="cinema_name">华夏优加影城(长和国际店)</span>
+              <span class="cinema_name">{{ item.nm }}</span>
               <span class="q">
-                <span class="price">19.9</span>
+                <span class="price">{{ item.sellPrice }}</span>
                 元起
               </span>
             </p>
             <p class="address">
-              <span class="location">未央区经济技术开发区凤城八路与明光路交汇处长和国际卜蜂中心4</span>
-              <span class="distance">999km</span>
+              <span class="location">{{ item.addr }}</span>
+              <span class="distance">{{ item.distance }}</span>
             </p>
             <div class="card">
-              <div class="bl">改签</div>
-              <div class="bl">退票</div>
-              <div class="or">折扣卡</div>
-              <div class="or">小吃</div>
+              <div v-for="(num,key) in item.tag" v-if="num===1" :key="key" :class=" key | classCard ">{{ key | formatCard }}</div>
             </div>
           </li>
         </ul>
@@ -48,7 +45,59 @@
 
 <script>
 export default {
-  name: "CinemaList"
+  name: "CinemaList",
+  data(){
+        return {
+            cinemaList : [],
+            isLoading : true,
+            prevCityId : -1
+        };
+    },
+    activated(){
+
+        var cityId = this.$store.state.city.id;
+        if( this.prevCityId === cityId ){ return; }
+        this.isLoading = true;
+
+        this.axios.get('/api/cinemaList.json').then((res)=>{
+            var msg = res.data.msg;
+            if(msg === 'ok'){
+                this.cinemaList = res.data.data.cinemas;
+                this.isLoading = false;
+                this.prevCityId = cityId
+            }
+        });
+    },
+    filters : {
+        formatCard(key){
+            var card = [
+                { key : 'allowRefund' , value : '改签' },
+                { key : 'endorse' , value : '退' },
+                { key : 'sell' , value : '折扣卡' },
+                { key : 'snack' , value : '小吃'}
+            ];
+            for(var i=0;i<card.length;i++){
+                if(card[i].key === key){
+                    return card[i].value;
+                }
+            }
+            return '';
+        },
+        classCard(key){
+            var card = [
+                { key : 'allowRefund' , value : 'bl' },
+                { key : 'endorse' , value : 'bl' },
+                { key : 'sell' , value : 'or' },
+                { key : 'snack' , value : 'or'}
+            ];
+            for(var i=0;i<card.length;i++){
+                if(card[i].key === key){
+                    return card[i].value;
+                }
+            }
+            return '';
+        }
+    }
 };
 </script>
 
@@ -56,11 +105,12 @@ export default {
 #content .topbar {
   width: 100%;
   height: 45px;
-  border-bottom: 1px solid #e6e6e6;
+  /* border-bottom: 1px solid #e6e6e6; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: white;
+  margin-top: 20px;
 }
 #content .topbar div {
   flex: 1;
